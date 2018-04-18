@@ -1,0 +1,106 @@
+{
+  "Actors": [
+    {
+      "id": "aa1",
+      "categoryId": "category1",
+      "name": "Nicole Kidman",
+      "cost": "100000.00"
+    },
+    {
+      "id": "aa2",
+      "categoryId": "category1",
+      "name": "Julianne Moore",
+      "cost": "20000.00"
+    },
+    {
+      "id": "aa3",
+      "categoryId": "category1",
+      "name": "Al Pacino",
+      "cost": "300000.00"
+    },
+    {
+      "id": "aa4",
+      "categoryId": "category1",
+      "name": "Robert De Niro",
+      "cost": "250000.00"
+    }
+  ],
+  "Animals":[
+    {
+      "id": "an1",
+      "categoryId": "category2",
+      "name": "Orangutan",
+      "cost": "1000.00"
+    },
+    {
+      "id": "an2",
+      "categoryId": "category2",
+      "name": "Fox",
+      "cost": "500.00"
+    },
+    {
+      "id": "an3",
+      "categoryId": "category2",
+      "name": "Red Panda",
+      "cost": "5000.00"
+    },
+    {
+      "id": "an4",
+      "categoryId": "category2",
+      "name": "Tiger",
+      "cost": "10000.00"
+    }
+  ],
+  "Location": [
+    {
+      "id": "l1",
+      "categoryId": "category3",
+      "name": "Oahu",
+      "cost": "20000.00"
+    },
+    {
+      "id": "l2",
+      "categoryId": "category3",
+      "name": "Isla Sorna",
+      "cost": "5000.00"
+    },
+    {
+      "id": "l3",
+      "categoryId": "category3",
+      "name": "Isla Nublar",
+      "cost": "8000.00"
+    },
+    {
+      "id": "l4",
+      "categoryId": "category3",
+      "name": "Bad Lands",
+      "cost": "1000.00"
+    }
+  ],
+  "Special Effects": [
+    {
+      "id": "se1",
+      "categoryId": "category4",
+      "name": "Explosions",
+      "cost": "2000.00"
+    },
+    {
+      "id": "se2",
+      "categoryId": "category4",
+      "name": "CGI",
+      "cost": "15000.00"
+    },
+    {
+      "id": "se3",
+      "categoryId": "category4",
+      "name": "Life-Like Models",
+      "cost": "20000.00"
+    },
+    {
+      "id": "se4",
+      "categoryId": "category4",
+      "name": "Green Screen",
+      "cost": "750.00"
+    }
+  ]
+}
