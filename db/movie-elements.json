@@ -1,5 +1,5 @@
 {
-  "Actors": [
+  "Elements": [
     {
       "id": "aa1",
       "categoryId": "category1",
@@ -23,9 +23,7 @@
       "categoryId": "category1",
       "name": "Robert De Niro",
       "cost": "250000.00"
-    }
-  ],
-  "Animals":[
+    },
     {
       "id": "an1",
       "categoryId": "category2",
@@ -49,9 +47,7 @@
       "categoryId": "category2",
       "name": "Tiger",
       "cost": "10000.00"
-    }
-  ],
-  "Location": [
+    },
     {
       "id": "l1",
       "categoryId": "category3",
@@ -75,9 +71,7 @@
       "categoryId": "category3",
       "name": "Bad Lands",
       "cost": "1000.00"
-    }
-  ],
-  "Special Effects": [
+    },
     {
       "id": "se1",
       "categoryId": "category4",
