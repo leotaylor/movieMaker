@@ -1,5 +1,6 @@
 body{
   background-color: mediumseagreen;
+  margin: 1%;
 }
 
 .line{
@@ -13,3 +14,12 @@ body{
 .progress{
   margin: 0 10%;
 }
+
+.checkbox{
+  display: inline-block;
+}
+
+label{
+  padding-right: 10px;
+}
+
