@@ -8,10 +8,13 @@ const domString = (categories, elements) => {
     strang +=       `<th><h1>${cat.categoryName}</h1></th>`;
     strang +=     `</tr>`;
     strang +=     `<tr>`;
-    strang +=       `<td>`;
+    strang +=       `<td class='row'>`;
     elements.forEach((element) => {
       if (element.categoryId === cat.id) {
-        strang += `<input class="checkbox" type="checkbox" id="${element.id}" data-category="${element.categoryId}"><label>${element.name} </label>`;
+        strang += `<div class='col-sm-4'>`;
+        strang +=   `<input class="checkbox" type="checkbox" id="${element.id}" data-category="${element.categoryId}">`;
+        strang +=   `<label>${element.name}</label>`;
+        strang += `</div>`;
       };
     });
     strang +=       `</td>`;
