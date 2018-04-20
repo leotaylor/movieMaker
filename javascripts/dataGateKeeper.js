@@ -1,5 +1,4 @@
-const loadElements = require('./xhr');
-const loadCategories = require('./xhr');
+const xhr = require('./xhr');
 const elementsDom = require('./primaryDom');
 const data = require('./data');
 
@@ -20,8 +19,8 @@ const errorFunction = function () {
 };
 
 const initializer = () => {
-  loadElements.loadElements(whenElementsLoad, errorFunction);
-  loadCategories.loadCategories(whenCategoriesLoad, errorFunction);
+  xhr.loadElements(whenElementsLoad, errorFunction);
+  xhr.loadCategories(whenCategoriesLoad, errorFunction);
 };
 
 module.exports = {
