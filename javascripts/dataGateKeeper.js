@@ -1,5 +1,5 @@
 const xhr = require('./xhr');
-const elementsDom = require('./primaryDom');
+const printToDom = require('./primaryDom');
 const data = require('./data');
 
 const whenElementsLoad = function () {
@@ -12,7 +12,7 @@ const whenCategoriesLoad = function () {
   const categoriesData = JSON.parse(this.responseText).categories;
   data.setCategories(categoriesData);
   const movieElements = data.getElements();
-  elementsDom(categoriesData, movieElements);
+  printToDom(categoriesData, movieElements);
 };
 
 const errorFunction = function () {
