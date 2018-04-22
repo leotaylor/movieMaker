@@ -1,4 +1,5 @@
 const outputDiv = document.getElementById('outputDiv');
+const events = require('./events');
 
 const domString = (categories, elements) => {
   let strang = '';
@@ -26,6 +27,7 @@ const domString = (categories, elements) => {
 
 const printToDom = (categories, elements) => {
   outputDiv.innerHTML = domString(categories, elements);
+  events.addCheckEvents();
 };
 
 module.exports = printToDom;
