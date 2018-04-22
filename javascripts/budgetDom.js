@@ -1,9 +1,17 @@
-// const budgetDiv = document.getElementById('rightDiv');
+const budgetDiv = document.getElementById('rightDiv');
 
-// const newDomstring = () => {
-//   let domStrang = '';
-// };
+const newDomString = (checkedBoxes) => {
+  let domStrang = '';
+  domStrang += `<h1>Budget</h1>`;
+  checkedBoxes.forEach((element) => {
+    domStrang += `<h3>${element.name}</h3>`;
+    domStrang += `<h4>${element.cost}</h4>`;
+  });
+  return domStrang;
+};
 
-// printToRightDom = () => {
-//   budgetDiv.innerHTML = newDomString();
-// }
+const printToRightDom = (checkedBoxes) => {
+  budgetDiv.innerHTML = newDomString(checkedBoxes);
+};
+
+module.exports = printToRightDom;

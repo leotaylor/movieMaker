@@ -1,4 +1,5 @@
 const data = require('./data');
+const printToRightDom = require('./budgetDom');
 const checkBoxes = document.getElementsByClassName('checkbox');
 const elementSelected = [];
 
@@ -14,7 +15,7 @@ const checkItDontWreckIt = (e) => {
       elementSelected.push(item);
     }
   });
-  console.log(elementSelected);
+  printToRightDom(elementSelected);
   data.setChecked(elementSelected);
 };
 
