@@ -5,7 +5,7 @@ const newDomString = (checkedBoxes) => {
   domStrang += `<h1>Budget</h1>`;
   checkedBoxes.forEach((element) => {
     domStrang += `<h3>${element.name}</h3>`;
-    domStrang += `<h4>${element.cost}</h4>`;
+    domStrang += `<h4>${element.cost * 1}</h4>`;
   });
   return domStrang;
 };
