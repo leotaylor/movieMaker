@@ -28,9 +28,15 @@ const checkItDontWreckIt = (e) => {
 
 const wreckItDontCheckIt = (e) => {
   data.getElements().forEach((item) => {
-    if (e.target.id !== item.id) {
+    if (e.target.id === item.id) {
       elementSelected.pop(item);
     };
+    // const i = elementSelected.indexOf(item);
+    // if (i !== -1) {
+    //   elementSelected.splice(i, 1);
+    // };
+    // const index = elementSelected.indexOf(item);
+    // elementSelected.splice(index, 1);
   });
   printToRightDom(elementSelected);
   data.setChecked(elementSelected);
