@@ -1,6 +1,7 @@
 let elements = [];
 let categories = [];
 let checked = [];
+let budget = 0;
 
 const getElements = () => {
   return elements;
@@ -26,6 +27,14 @@ const setChecked = (itemsArray) => {
   checked = itemsArray;
 };
 
+const getBudget = () => {
+  return budget;
+};
+
+const setBuget = (budgetArray) => {
+  budget = budgetArray;
+};
+
 module.exports = {
   getElements,
   setElements,
@@ -33,4 +42,6 @@ module.exports = {
   setCategories,
   getChecked,
   setChecked,
+  getBudget,
+  setBuget,
 };

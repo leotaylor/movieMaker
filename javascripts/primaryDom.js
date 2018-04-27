@@ -3,6 +3,13 @@ const events = require('./events');
 
 const domString = (categories, elements) => {
   let strang = '';
+  // strang += `<div class='text-center'>`;
+  // strang +=   `<h1>Enter A Budget!</h1>`;
+  // strang += `<div class="progress">`;
+  // strang +=    `<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="0%" aria-valuemin="0" aria-valuemax="100">`;
+  // strang +=    `</div>`;
+  // strang += `</div>`;
+  // strang += `</div>`;
   categories.forEach((cat) => {
     strang +=  `<table class="table">`;
     strang +=     `<tr>`;
