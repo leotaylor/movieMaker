@@ -1,11 +1,13 @@
 const xhr = require('./xhr');
 const printToDom = require('./primaryDom');
 const data = require('./data');
+const events = require('./events');
 
 const whenElementsLoad = function () {
   const elementsData = JSON.parse(this.responseText).Elements;
   data.setElements(elementsData);
   xhr.loadCategories(whenCategoriesLoad, errorFunction);
+  events.addBudgetEvent();
 };
 
 const whenCategoriesLoad = function () {
